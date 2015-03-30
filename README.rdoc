@@ -1,28 +1,15 @@
-== README
+== qa.vrsec.net
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repository contains the source code for the web site qa.vrsec.net
 
-Things you may want to cover:
+It is runs on and is tested using 
 
-* Ruby version
+* Ruby version 2.1.5
 
-* System dependencies
+* Cassandra 2.0.11
 
-* Configuration
+* Rails 4.2.1
 
-* Database creation
+* Puma as app server
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Please read the license file to know how you can use this software.
