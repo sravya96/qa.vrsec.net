@@ -1,0 +1,15 @@
+development:
+  hosts: 127.0.0.1
+  keyspace: vrsec_development_db
+  replication_strategy: SimpleStrategy
+  replication_factor: 1
+  username: vrsec_development
+  password: <%= ENV['VRSEC_DB_PASSWORD'] %>
+
+production:
+  hosts:
+    - db1.vrsec.net
+    - db2.vrsec.net
+  username: vrsec
+  keyspace: vrsec_db
+  password: <%= ENV['VRSEC_APP_DB_PASSWORD'] %>
